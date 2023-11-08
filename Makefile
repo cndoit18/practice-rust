@@ -1,0 +1,2 @@
+test:
+	@mdbook test
