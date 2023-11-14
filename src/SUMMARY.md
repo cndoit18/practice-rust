@@ -11,3 +11,6 @@
 - [ownership](ownership/README.md)
   - [ownership](ownership/ownership.md)
   - [borrowing](ownership/borrowing.md)
+
+- [compound types](compound_types/README.md)
+  - [string](compound_types/string.md)
