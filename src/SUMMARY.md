@@ -10,3 +10,4 @@
   - [functions](basic/functions.md)
 - [ownership](ownership/README.md)
   - [ownership](ownership/ownership.md)
+  - [borrowing](ownership/borrowing.md)
