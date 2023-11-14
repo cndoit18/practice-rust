@@ -7,3 +7,4 @@
   - [numbers](basic/numbers.md)
   - [char bool unit](basic/char_bool_unit.md)
   - [statements expressions](basic/statements_expressions.md)
+  - [functions](basic/functions.md)
