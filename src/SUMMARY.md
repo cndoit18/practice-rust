@@ -5,3 +5,4 @@
 - [basic](basic.md)
   - [variable](basic/variable.md)
   - [numbers](basic/numbers.md)
+  - [char bool unit](basic/char_bool_unit.md)
