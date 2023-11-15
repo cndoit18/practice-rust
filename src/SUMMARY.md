@@ -16,3 +16,4 @@
   - [string](compound_types/string.md)
   - [array](compound_types/array.md)
   - [slice](compound_types/slice.md)
+  - [tuple](compound_types/tuple.md)
