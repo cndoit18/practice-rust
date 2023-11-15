@@ -18,3 +18,4 @@
   - [slice](compound_types/slice.md)
   - [tuple](compound_types/tuple.md)
   - [struct](compound_types/struct.md)
+  - [enum](compound_types/enum.md)
