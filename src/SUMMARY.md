@@ -15,3 +15,4 @@
 - [compound types](compound_types/README.md)
   - [string](compound_types/string.md)
   - [array](compound_types/array.md)
+  - [slice](compound_types/slice.md)
