@@ -19,3 +19,5 @@
   - [tuple](compound_types/tuple.md)
   - [struct](compound_types/struct.md)
   - [enum](compound_types/enum.md)
+
+- [flow control](flow_control.md)
