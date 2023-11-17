@@ -21,3 +21,5 @@
   - [enum](compound_types/enum.md)
 
 - [flow control](flow_control.md)
+- [pattern_match](pattern_match/README.md)
+  - [match iflet](pattern_match/match_iflet.md)
