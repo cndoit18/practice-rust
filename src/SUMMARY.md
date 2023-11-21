@@ -9,10 +9,12 @@
   - [statements expressions](basic/statements_expressions.md)
   - [functions](basic/functions.md)
 - [ownership](ownership/README.md)
+
   - [ownership](ownership/ownership.md)
   - [borrowing](ownership/borrowing.md)
 
 - [compound types](compound_types/README.md)
+
   - [string](compound_types/string.md)
   - [array](compound_types/array.md)
   - [slice](compound_types/slice.md)
@@ -25,3 +27,5 @@
   - [match iflet](pattern_match/match_iflet.md)
   - [patterns](pattern_match/patterns.md)
 - [method](method.md)
+- [generics traits](generics_traits/README.md)
+  - [generics](generics_traits/generics.md)
