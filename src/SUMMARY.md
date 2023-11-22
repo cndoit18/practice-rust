@@ -30,3 +30,4 @@
 - [generics traits](generics_traits/README.md)
   - [generics](generics_traits/generics.md)
   - [const generics](generics_traits/const_generics.md)
+  - [traits](generics_traits/traits.md)
