@@ -33,3 +33,5 @@
   - [traits](generics_traits/traits.md)
   - [trait object](generics_traits/trait_object.md)
   - [advanced_traits](generics_traits/advanced_traits.md)
+- [collections](collections/README.md)
+  - [string](collections/string.md)
