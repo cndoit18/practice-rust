@@ -35,3 +35,4 @@
   - [advanced_traits](generics_traits/advanced_traits.md)
 - [collections](collections/README.md)
   - [string](collections/string.md)
+  - [vector](collections/vector.md)
