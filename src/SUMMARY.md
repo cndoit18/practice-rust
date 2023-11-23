@@ -31,3 +31,4 @@
   - [generics](generics_traits/generics.md)
   - [const generics](generics_traits/const_generics.md)
   - [traits](generics_traits/traits.md)
+  - [trait object](generics_traits/trait_object.md)
