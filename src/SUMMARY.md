@@ -36,3 +36,4 @@
 - [collections](collections/README.md)
   - [string](collections/string.md)
   - [vector](collections/vector.md)
+  - [hashmap](collections/hashmap.md)
