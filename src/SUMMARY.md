@@ -37,3 +37,5 @@
   - [string](collections/string.md)
   - [vector](collections/vector.md)
   - [hashmap](collections/hashmap.md)
+- [lifetime](lifetime/README.md)
+  - [basic](lifetime/basic.md)
