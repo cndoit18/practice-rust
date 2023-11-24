@@ -39,3 +39,4 @@
   - [hashmap](collections/hashmap.md)
 - [lifetime](lifetime/README.md)
   - [basic](lifetime/basic.md)
+  - [static](lifetime/static.md)
