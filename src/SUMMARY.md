@@ -40,3 +40,6 @@
 - [lifetime](lifetime/README.md)
   - [basic](lifetime/basic.md)
   - [static](lifetime/static.md)
+- [result panic](result_panic/README.md)
+  - [panic](result_panic/panic.md)
+  - [result](result_panic/result.md)
