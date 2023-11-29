@@ -9,12 +9,10 @@
   - [statements expressions](basic/statements_expressions.md)
   - [functions](basic/functions.md)
 - [ownership](ownership/README.md)
-
   - [ownership](ownership/ownership.md)
   - [borrowing](ownership/borrowing.md)
 
 - [compound types](compound_types/README.md)
-
   - [string](compound_types/string.md)
   - [array](compound_types/array.md)
   - [slice](compound_types/slice.md)
@@ -40,6 +38,7 @@
 - [lifetime](lifetime/README.md)
   - [basic](lifetime/basic.md)
   - [static](lifetime/static.md)
+  - [advance](lifetime/advance.md)
 - [result panic](result_panic/README.md)
   - [panic](result_panic/panic.md)
   - [result](result_panic/result.md)
