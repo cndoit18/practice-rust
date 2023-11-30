@@ -49,3 +49,4 @@
 - [type conversions](type_conversions/README.md)
   - [as](type_conversions/as.md)
   - [from into](type_conversions/from_into.md)
+  - [others](type_conversions/others.md)
