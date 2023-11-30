@@ -46,4 +46,6 @@
   - [result](result_panic/result.md)
 - [functional programing](functional_programing/README.md)
   - [closure](functional_programing/closure.md)
-- [type conversions](type_conversions/as.md)
+- [type conversions](type_conversions/README.md)
+  - [as](type_conversions/as.md)
+  - [from into](type_conversions/from_into.md)
