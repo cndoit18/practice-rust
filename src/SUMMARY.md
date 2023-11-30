@@ -44,4 +44,9 @@
 - [result panic](result_panic/README.md)
   - [panic](result_panic/panic.md)
   - [result](result_panic/result.md)
+<<<<<<< Updated upstream
 - [functional programing](functional_programing/closure.md)
+||||||| Stash base
+=======
+- [type conversions](type_conversions/as.md)
+>>>>>>> Stashed changes
