@@ -50,3 +50,4 @@
   - [as](type_conversions/as.md)
   - [from into](type_conversions/from_into.md)
   - [others](type_conversions/others.md)
+- [newtype and DST](newtype_and_DST.md)
