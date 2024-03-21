@@ -1,4 +1,5 @@
 use clap::Parser;
+use colored::Colorize;
 use regex::Regex;
 use std::{
     error::Error,
@@ -64,7 +65,12 @@ impl Engine {
                     LineInfo {
                         path: &path,
                         line: line + 1,
-                        data: content
+                        data: self
+                            .query
+                            .replace_all(&content, |caps: &regex::Captures| {
+                                caps[0].to_string().red().to_string()
+                            })
+                            .to_string()
                     }
                 )?;
             }
