@@ -1,4 +1,5 @@
 use clap::Parser;
+use regex::Regex;
 use std::{
     error::Error,
     fmt::Display,
@@ -38,8 +39,13 @@ USAGE:
 #[derive(Parser)]
 #[command(version = "1.0", author = "cndoit18 <cndoit18@outlook.com>", help_template = HELP_TEMPLATE)]
 struct Engine {
-    query: String,
+    #[arg(value_parser = validate_regex)]
+    query: Regex,
     glob: String,
+}
+
+fn validate_regex(s: &str) -> Result<Regex, String> {
+    Ok(Regex::new(s).map_err(|e| e.to_string())?)
 }
 
 impl Engine {
@@ -51,7 +57,7 @@ impl Engine {
     ) -> Result<(), std::io::Error> {
         for (line, content) in reader.lines().enumerate() {
             let content = content?;
-            if content.contains(&self.query) {
+            if self.query.is_match(&content) {
                 write!(
                     writer,
                     "{}",
@@ -84,7 +90,7 @@ mod tests {
     #[test]
     fn test_process() {
         let engine = Engine {
-            query: "hello".to_string(),
+            query: Regex::new("hello").unwrap(),
             glob: "ignore".to_string(),
         };
         let reader = BufReader::new("hello\nworld\nhello\n".as_bytes());
@@ -96,7 +102,7 @@ mod tests {
     #[test]
     fn test_walk_dir() {
         let engine = Engine {
-            query: "hello".to_string(),
+            query: Regex::new("hello").unwrap(),
             glob: "**/main.rs".to_string(),
         };
         let r = engine.walk_dir().unwrap();
