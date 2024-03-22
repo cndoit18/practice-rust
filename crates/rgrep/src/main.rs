@@ -102,7 +102,7 @@ mod tests {
         let reader = BufReader::new("hello\nworld\nhello\n".as_bytes());
         let mut writer = Vec::new();
         engine.process("".to_string(), reader, &mut writer).unwrap();
-        assert_eq!(writer, ":1: hello\n:3: hello\n".as_bytes());
+        assert_eq!(writer, format!(":1: {}\n:3: {}\n", "hello".red(), "hello".red()).as_bytes());
     }
 
     #[test]
